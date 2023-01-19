@@ -1,7 +1,7 @@
 function Banner2() {
     return (
       <div>
-        BANNER2
+        BANNER2 - pedro
       </div>
     );
   }
