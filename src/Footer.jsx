@@ -1,9 +1,12 @@
+import lampiao from './assets/chinelo.jpg'
 function Footer() {
  
     return (
       <div>
-        FOOTER <br></br>
-        <img src={ require('/Users/pedrogoncalves/GitHub/digital-shoes/src/chinelo.jpg') } /> <br />
+        FOOTER 
+        <div>
+        <img className="lampiao" src={lampiao} alt="" />
+      </div>
         Chinela do Lampião - Esgotada !!
       </div>
     );
