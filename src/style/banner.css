@@ -1,0 +1,35 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #F5F5F5;
+} */
+
+
+
+.container {
+  height: 681px;
+  width: 1440px;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  background-color: #F5F5F5;
+
+}
+
+.title {
+  height: 132px;
+  width: 510px;
+  font-size: 64px;
+  margin-left:100px;
+  line-height: 66px;
+  
+}
+
+
+.pontilhado {
+  width: 140px;
+  height: 140px;
+  margin-bottom: 463px;
+}
+
