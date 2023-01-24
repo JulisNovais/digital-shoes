@@ -1,9 +1,8 @@
 import Banner from "./Banner";
 import Banner2 from "./Banner2";
 import Footer from "./Footer";
-import Header from "./Header";
+import Header from "./Header-plinio";
 import Highlights from "./Highlights";
-
 
 function App() {
   return (
