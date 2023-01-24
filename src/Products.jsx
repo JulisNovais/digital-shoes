@@ -1,7 +1,7 @@
 function Products() {
   return (     
     <div>
-        <h2>Produtos Relacionados</h2>
+        <h2>Produtos Relacionados  - MAX  e  MIGUEL</h2>
           <section>
             <div>
               <img src="https://imgcentauro-a.akamaihd.net/400x400/9789492R/tenis-nike-revolution-6-masculino-img.jpg" alt=""/>
