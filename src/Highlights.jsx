@@ -16,6 +16,7 @@ const ContainerDestaques = styled.div`
   border-radius: 8px;
 `;
 
+//giovanne//
 const ContaineerInfo = styled.div`
   display: flex;
   flex-direction: column;
