@@ -1,6 +1,5 @@
 import tenisGrande from './assets/tenisGrande.svg'
 import pontilhado from './assets/pontilhado.svg'
-import './style/banner.css'
 import Button from './Button'
 
 import tenis from './assets/tenis.svg'

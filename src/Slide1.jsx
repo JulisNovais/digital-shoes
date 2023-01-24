@@ -1,39 +1,22 @@
 import tenisGrande from './assets/tenisGrande.svg'
 import pontilhado from './assets/pontilhado.svg'
-import './style/banner.css'
+import './style/slide1.css'
 import Button from './Button'
 
 import tenis from './assets/tenis.svg'
 
 function Slide1() {
   return (
-    <div style={{
-      display: 'flex',
-      border: '1px solid red'
-    }}>
-      <div style={{
-        width: '100%',
-        border: '1px solid blue',
-        display: 'flex',
-        justifyContent: 'center',
-        flexDirection: 'column',
-        padding: '124px 100px',
-        gap: '20px'
-      }}>
-        <div>Melhores ofertas personalizadas</div>
-        <div>Queima de stoque Nike 🔥</div>
-        <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
-        <div style={{
-          paddingTop: '20px'
-        }}><input type="button" value="Ver Ofertas" /></div>
+    <div className='container1'>
+      <div className='container2'>
+        <div className='secondTitle'>Melhores ofertas personalizadas</div>
+        <div className='mainTitle'>Queima de stoque Nike 🔥</div>
+        <div className='paragraph'>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
+        <div className='container3'style={{
+          
+        }}><input className="btn"type="button" value="Ver Ofertas" /></div>
       </div>
-      <div style={{
-        width: '100%',
-        border: '1px solid green',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center'
-      }}>
+      <div className='container4'>
         <img src={tenis} alt="" />
       </div>
     </div >
