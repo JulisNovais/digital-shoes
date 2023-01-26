@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import destaqueStar from "./assets/destaqueStar.svg";
+import destaqueStar from "./assets/starWars.png";
 import destaqueTenis from "./assets/destaqueTenis.svg";
 import destaqueFone from "./assets/destaqueFone.svg";
 
