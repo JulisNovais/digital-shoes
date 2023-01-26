@@ -19,8 +19,6 @@ function Banner2() {
         </div>
       
       <div>
-        BANNER2 - pedro
-        BANNER2 - allan
         <div style={{
           textAlign: 'left',
           fontSize: '14px',
