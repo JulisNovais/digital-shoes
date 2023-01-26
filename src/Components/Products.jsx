@@ -1,10 +1,14 @@
+import React from "react";
+import produtoTenis from "../assets/produtoTenis.svg"
+
+
 function Products() {
   return (     
     <div>
         <h2>Produtos Relacionados  - MAX  e  MIGUEL</h2>
           <section>
-            <div>
-              <img src="https://imgcentauro-a.akamaihd.net/400x400/9789492R/tenis-nike-revolution-6-masculino-img.jpg" alt=""/>
+            <div style={{maxWidth: '320px', border: 'solid 1px red  '}}>
+              <img src={produtoTenis} alt=""/>
               <p>Ténis</p>
               <p> K-Swiss V8 - Masculino</p>
               <p>Price : <span>R$50</span></p>
