@@ -8,12 +8,12 @@ import Products from "./Products";
 function App() {
   return (
     <div>
-      <Header />
+      {/* <Header />
       <Banner />
-      <Highlights />
+      <Highlights /> */}
       <Products />
-      <Banner2 />
-      <Footer />
+      {/* <Banner2 />
+      <Footer /> */}
     </div>
   );
 }
