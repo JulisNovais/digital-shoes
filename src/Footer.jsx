@@ -1,20 +1,20 @@
-import './style/footer.css'
+import "./style/footer.css";
 
 function Footer() {
-
   return (
     <div>
-      <div class="container-footer">
-
-        <div class="left">
+      <div className="container-footer">
+        <div className="left">
           <h3>Digital Store</h3>
-          <p class="footer-about"> Lorem ipsum, dolor sit amet
-            consectetur adipisicing elit. </p>
+          <p className="footer-about">
+            {" "}
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.{" "}
+          </p>
         </div>
 
-        <div class="info">
+        <div className="info">
           <div>
-            <i class="info"></i>
+            <i className="info"></i>
             <p>Informação</p>
             <ul>
               <li>Sobre drip Store</li>
@@ -25,12 +25,11 @@ function Footer() {
               <li>Meus Pedidos</li>
             </ul>
           </div>
-
         </div>
 
-        <div class="categ">
+        <div className="categ">
           <div>
-            <i class="categ"></i>
+            <i className="categ"></i>
             <p>Categorias</p>
             <ul>
               <li>Camisetas</li>
@@ -40,18 +39,17 @@ function Footer() {
               <li>Tênis</li>
             </ul>
           </div>
-
-
         </div>
-        <div class="contato">
+        <div className="contato">
           <div>
-            <i class="contato"></i>
+            <i className="contato"></i>
             <p>Contato</p>
-            <p>Av. Santos Dumont, 1510 - 1 andar - Aldeota, Fortaleza - CE, 60150-161</p>
+            <p>
+              Av. Santos Dumont, 1510 - 1 andar - Aldeota, Fortaleza - CE,
+              60150-161
+            </p>
             <p>(85) 3051-3411</p>
           </div>
-
-
         </div>
       </div>
     </div>
