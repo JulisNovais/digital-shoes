@@ -5,7 +5,7 @@ function Card(props) {
        <img src={produtoTenis} alt=""/>
         <p>{props.categoria}</p>
         <p>{props.nome}</p>
-        <p>Price s : <span>R$50</span></p>
+        <p>Prices : <span>R$50</span></p>
      </div>)
 }
 

@@ -4,20 +4,20 @@ import {ProductsArea} from "../Components/styles"
 
 function Products() {
   const [produtos, setProdutos] = useState([{
-    nome: "Tennis Ardidas",
+    nome: "Tennis1",
     categoria: "Tenis",
     valor: 200,
     desconto: 30
   },
   {
-    nome: "Tennis Nikies",
+    nome: "Tennis2",
     categoria: "Tenis",
     valor: 300,
     desconto: 20
   }
   ,
   {
-    nome: "Tennis MissUno",
+    nome: "Tennis3",
     categoria: "Tenis",
     valor: 100,
     desconto: 0

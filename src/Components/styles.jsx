@@ -5,7 +5,7 @@ export const ProductsArea = styled.div`
     gap: 50px;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center; */
+    align-items: center; 
 
     div {
         max-width: 320px;        
