@@ -9,7 +9,6 @@ export const ProductsArea = styled.div`
 
     div {
         max-width: 320px;        
-        border: 1px solid black;
         display: flex;
         justify-content: space-between;
         flex-direction: column;

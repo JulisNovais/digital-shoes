@@ -2,10 +2,12 @@ import produtoTenis from "../assets/produtoTenis.svg";
 
 function Card(props) {
     return (<div>
-       <img src={produtoTenis} alt=""/>
+      <div style={{background: '#fff'}}>
+      <img src={produtoTenis} alt=""/>
+      </div>
         <p>{props.categoria}</p>
         <p>{props.nome}</p>
-        <p>Prices : <span>R$50</span></p>
+        <p>Prices : <span>R$ {props.valor}</span></p>
      </div>)
 }
 

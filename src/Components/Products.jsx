@@ -14,6 +14,12 @@ function Products() {
     categoria: "Tenis",
     valor: 300,
     desconto: 20
+  },
+  {
+    nome: "Tennis2",
+    categoria: "Tenis",
+    valor: 300,
+    desconto: 20
   }
   ,
   {
