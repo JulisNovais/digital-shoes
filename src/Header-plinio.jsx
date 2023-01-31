@@ -1,6 +1,6 @@
 import header from "./assets/headerLogo.svg";
-import logo from "./assets/headerCarrinho.svg";
 import styled from "styled-components";
+import Carrinho from "./Components/Carrinho/Carrinho";
 
 const Link = styled.a`
   text-decoration: none;
@@ -82,7 +82,7 @@ function Header() {
         />
         <Cadastro> Cadastre-se</Cadastro>
         <Buttom>Entrar</Buttom>
-        <img src={logo} alt="" />
+        <Carrinho />
       </div>
       <div
         style={{
