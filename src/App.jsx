@@ -2,7 +2,7 @@ import Banner from "./Banner";
 import Banner2 from "./Banner2";
 import Footer from "./Footer";
 import Header from "./Header-plinio";
-import Highlights from "./Highlights";
+import Highlights from "../src/Components/Highlights";
 import Products from "./Components/Products";
 
 function App() {
