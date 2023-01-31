@@ -14,6 +14,7 @@ function App() {
       <Products />
       <Banner2 />
       <Footer />
+      CARRINHO
     </div>
   );
 }
