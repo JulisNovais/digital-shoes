@@ -8,10 +8,12 @@ function Banner() {
   const arraySlides = [<Slide1 />, <Slide2 />, <Slide3 />]
   const [indice, setIndice] = useState(0)
   return (
-    <div className='div-btn'>
+    <div >
       {arraySlides[indice]}
-      <div ><input className='circle-btn'type="button" value="" onClick={() => setIndice((indice + arraySlides.length - 1) % arraySlides.length)} /></div>
-      <div ><input className='circle-btn' type="button" value="" onClick={() => setIndice((indice + arraySlides.length + 1) % arraySlides.length)} /></div>
+      <div className='div-btn'>
+        <input className='circle-btn'type="button" value="" onClick={() => setIndice((indice + arraySlides.length - 1) % arraySlides.length)} />
+        <input className='circle-btn' type="button" value="" onClick={() => setIndice((indice + arraySlides.length + 1) % arraySlides.length)} />
+      </div>
       {/* <div>{indice}</div> */}
     </div>
   )
