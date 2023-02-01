@@ -1,3 +1,4 @@
+import Carrinho from "./Components/Carrinho/Carrinho";
 import "./style/footer.css";
 
 function Footer() {
