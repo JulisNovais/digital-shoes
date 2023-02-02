@@ -1,4 +1,7 @@
 import tenisBanner2 from './assets/tenisBanner2.svg';
+import Button from './Button'
+
+
 
 function Banner2() {
   return(
@@ -42,7 +45,7 @@ function Banner2() {
         <div style={{
           padding:'20px'
         }}>
-          <input type="button" value="Ver oferta" /></div>
+          <input type={Button} value="Ver oferta" /></div>
       </div>
   
     </div>
