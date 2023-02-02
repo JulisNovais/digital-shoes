@@ -1,7 +1,7 @@
 import Banner from "./Banner";
 import Banner2 from "./Banner2";
 import Footer from "./Footer";
-import Header from "./Header-plinio";
+import Header from "./Components/Header";
 import Highlights from "./Components/Highlights";
 import Products from "./Components/Products/Products";
 

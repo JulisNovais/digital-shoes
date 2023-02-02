@@ -1,40 +1,11 @@
-import header from "./assets/headerLogo.svg";
-import logo from "./assets/headerCarrinho.svg";
-import styled from "styled-components";
-
-const Link = styled.a`
-  text-decoration: none;
-  color: #474747;
-`;
-
-const Cabecalho = styled.header`
-  height: 175px;
-  display: flex;
-  flex-direction: column;
-  padding: 34px 100px 0 100px;
-  background-color: #fff;
-  box-sizing: border-box;
-`;
-
-const Cadastro = styled.a`
-  color: #474747;
-  font-size: 16px;
-  letter-spacing: 0.01em;
-`;
-
-const Buttom = styled.button`
-  background: #c92071;
-  font-size: 16px;
-  font-weight: 700;
-  color: #f5f5f5;
-  border: none;
-  border-radius: 8px;
-  padding: 10px 32px;
-  cursor: pointer;
-  letter-spacing: 0.01em;
-`;
+import header from "../../assets/headerLogo.svg";
+import logo from "../../assets/headerCarrinho.svg";
+import { Cabecalho, Link, Cadastro, Buttom } from "./styles";
+import Carrinho from "./Carrinho";
+import { useState } from "react";
 
 function Header() {
+  const [showCarrinho, setShowCarrinho] = useState(false);
   return (
     <Cabecalho>
       <div
@@ -44,7 +15,6 @@ function Header() {
           display: "flex",
           justifyContent: "space-between",
           alignItems: "center",
-          flexWrap: "wrap",
         }}
       >
         <div
@@ -71,7 +41,7 @@ function Header() {
           type="text"
           placeholder="Pesquisar produto..."
           style={{
-            width: "800px",
+            width: "640px",
             border: "none",
             background: "#F5F5F5",
             height: "38px",
@@ -82,7 +52,15 @@ function Header() {
         />
         <Cadastro> Cadastre-se</Cadastro>
         <Buttom>Entrar</Buttom>
-        <img src={logo} alt="" />
+
+        <span style={{ position: "relative", cursor: "pointer" }}>
+          <img
+            src={logo}
+            alt="carrinho"
+            onClick={() => setShowCarrinho(!showCarrinho)}
+          />
+          {showCarrinho && <Carrinho />}
+        </span>
       </div>
       <div
         style={{
