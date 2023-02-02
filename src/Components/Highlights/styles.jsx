@@ -3,6 +3,10 @@ import styled from "styled-components";
 export const ContainerDestaques = styled.div`
   display: flex;
   gap: 16px;
+
+  @media (max-width: 800px) {
+    flex-wrap: wrap;
+  }
 `;
 export const Tittle = styled.h2`
   font-size: 24px;
@@ -17,6 +21,9 @@ export const ContainerCard = styled.div`
   display: flex;
   align-items: center;
   border-radius: 8px;
+  min-width: 400px;
+  height: 100%;
+  width: 100%;
 `;
 
 export const CardInfo = styled.div`
@@ -66,6 +73,7 @@ export const Colecoes = styled.div`
   display: flex;
   justify-content: space-between;
   gap: 30px;
+  flex-wrap: wrap;
 `;
 
 export const ContainerImg = styled.div`
