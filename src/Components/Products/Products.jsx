@@ -1,47 +1,67 @@
 import Card from "./Card";
 import { useState } from "react";
-import {ProductsArea} from "./styles";
-import {TitleArea} from "./styles";
+import {ProductsArea, TitleArea} from "./styled";
 
 function Products() {
-  const [produtos, setProdutos] = useState([{
-    nome: "Tennis1",
+  const [produtos, setProdutos] = useState([
+  {
+    nome: "K-Swiss V8 - Masculino",
     categoria: "Tenis",
-    valor: 200,
+    valor: 100,
     desconto: 30
   },
   {
-    nome: "Tennis2",
-    categoria: "Tenis",
-    valor: 300,
-    desconto: 20
-  },
-  {
-    nome: "Tennis3",
-    categoria: "Tenis",
-    valor: 300,
-    desconto: 20
-  }
-  ,
-  {
-    nome: "Tennis4",
+    nnome: "K-Swiss V8 - Masculino",
     categoria: "Tenis",
     valor: 100,
-    desconto: 0
+    desconto: 30
+  },
+  {
+    nome: "K-Swiss V8 - Masculino",
+    categoria: "Tenis",
+    valor: 100,
+  },
+  {
+    nome: "K-Swiss V8 - Masculino",
+    categoria: "Tenis",
+    valor: 100,
+  },
+  {
+    nome: "K-Swiss V8 - Masculino",
+    categoria: "Tenis",
+    valor: 100,
+  },
+  {
+    nome: "K-Swiss V8 - Masculino",
+    categoria: "Tenis",
+    valor: 100,
+  },
+  {
+    nome: "K-Swiss V8 - Masculino",
+    categoria: "Tenis",
+    valor: 100,
+  },
+  {
+    nome: "K-Swiss V8 - Masculino",
+    categoria: "Tenis",
+    valor: 100,
   }])
   return (
-    <div>
-         <h2 style={{
-            fontSize: '0.75rem',
-            }}>Produtos em alta</h2>    
-      <ProductsArea>
-        {produtos.map((item) =>
-          <Card desconto={item.desconto}
-            nome={item.nome}
-            valor={item.valor}
-            categoria={item.categoria} />)}
-      </ProductsArea>
-    </div>
+    <ProductsArea>
+        <TitleArea>Produtos em alta</TitleArea>
+        <secion style={{ display: 'flex', 
+                         gap: '24px', 
+                         flexWrap: 'wrap',
+                         width: '100%' }}>         
+                
+             {produtos.map((item) =>
+               <Card desconto={item.desconto}
+                 nome={item.nome}
+                 valor={item.valor}
+                 categoria={item.categoria} />)}
+       
+        </secion>
+    </ProductsArea>
   );
 }
 
