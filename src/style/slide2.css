@@ -38,7 +38,7 @@ font-size: 16px;
 line-height: 24px;
 line-height: 124%;
 color: #F6AA1C;
-}
+margin-top: 124px;}
 
 .paragraph {
 font-family: Inter;
@@ -47,14 +47,6 @@ font-size: 18px;
 color: #474747;
 }
 
-.div-btn {
-  display: flex;
-  gap: 8px;
-  justify-content: center;
-}
-
-
-
 .btn {
   width: 220px;
   height: 48px;
@@ -62,14 +54,4 @@ color: #474747;
   color: white;
   border: none;
   border-radius: 8px;
-}
-
-
-.circle-btn {
-  background-color: #CCCC;
-  border-radius: 50%;
-  width: 12px;
-  height: 12px;
-  object-fit: cover ;
-  border: none;
 }
