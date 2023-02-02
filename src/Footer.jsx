@@ -24,13 +24,11 @@ function Footer() {
           sed do eiusmod tempor incididunt ut labore et dolore.</p>
         </div>
 <div>
-  <div classname='socials'>
+  <div classname='socials' >
         <img className='facelogo' src={facelogo} alt="" />
-        </div>
-        <div>
+        
         <img className='instalogo' src={instalogo} alt="" />
-        </div>
-        <div>
+       
         <img className='tweetlogo' src={tweetlogo} alt="" />
         </div>
 </div>
